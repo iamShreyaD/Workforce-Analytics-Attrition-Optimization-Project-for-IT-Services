@@ -3,3 +3,6 @@
 There are no null values.
 One placeholder found where terminationdate_key column should be null is filled with 1/1/1900.
 Several column names need edits. some are in upper case, some in lower. Use upper() for all. probably make the names simpler. Remove column gender_full. change store_name to store_no.
+5718 records where employee status is Active but termination date is populated.
+No records where employee status is Terminated but termination reason is missing.
+No records where termination type present for an active employee.
