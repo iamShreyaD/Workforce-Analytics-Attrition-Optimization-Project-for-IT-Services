@@ -6,3 +6,4 @@ Several column names need edits. some are in upper case, some in lower. Use uppe
 5718 records where employee status is Active but termination date is populated.
 No records where employee status is Terminated but termination reason is missing.
 No records where termination type present for an active employee.
+No records where termination date missing or placeholder for terminated employees.
