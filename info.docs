@@ -7,3 +7,11 @@ Several column names need edits. some are in upper case, some in lower. Use uppe
 No records where employee status is Terminated but termination reason is missing.
 No records where termination type present for an active employee.
 No records where termination date missing or placeholder for terminated employees.
+B2431 records where birth date occurring after hire date.
+46192 records where termination date earlier than hire date 46192.
+No records where future dates in historical records.
+No records where year in record date not aligning with employee status year.
+No records where age and length of service inconsistency exists.
+10 distinct employee records where same employee appearing multiple times in the same year.
+
+
