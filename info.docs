@@ -39,5 +39,20 @@ No records where termination reasons applied to active employees.
 
 49653 records at the beginning of data cleaning.
 Created a new table employee_clean and inserted the data from employee_raw to it.
+Standardizing the names of columns. new columns names are employee_id, store_no, gender_short to gender, status_year, status, business_unit.
+Dropped column gender_full.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
