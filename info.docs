@@ -35,3 +35,9 @@ No records where store employees classified as head office.
 No records where termination reasons applied to active employees.
 8237 records found where business unit mismatches with job titles.
 
+-Data Cleaning
+
+49653 records at the beginning of data cleaning.
+Created a new table employee_clean and inserted the data from employee_raw to it.
+
+
