@@ -1,17 +1,30 @@
 -Data audit
+
+1. Data completeness
 49563 records found in total.
 There are no null values.
 One placeholder found where terminationdate_key column should be null is filled with 1/1/1900.
 Several column names need edits. some are in upper case, some in lower. Use upper() for all. probably make the names simpler. Remove column gender_full. change store_name to store_no.
+2. Logical Consistency between fields
 5718 records where employee status is Active but termination date is populated.
 No records where employee status is Terminated but termination reason is missing.
 No records where termination type present for an active employee.
 No records where termination date missing or placeholder for terminated employees.
+3. Data validity and timeline accuracy
 24321 records where birth date occurring after hire date.
 46192 records where termination date earlier than hire date 46192.
 No records where future dates in historical records.
 No records where year in record date not aligning with employee status year.
 No records where age and length of service inconsistency exists.
+4. Snapshot integrity
 10 distinct employee records where same employee appearing multiple times in the same year.
+No employee switches from Terminated → Active in later years.
+No missing years in employee timelines.
+5. Categorical data consistency
+No records found where the gender represented as both M/F and Male/Female. So, gender_full column can be eliminated safely.
+No spelling error in department names.
+No mixed casing in status values.
+6. Duplicate and uniqueness validation
+
 
 
