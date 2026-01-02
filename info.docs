@@ -41,7 +41,10 @@ No records where termination reasons applied to active employees.
 Created a new table employee_clean and inserted the data from employee_raw to it.
 Standardizing the names of columns. new columns names are employee_id, store_no, gender_short to gender, status_year, status, business_unit.
 Dropped column gender_full.
-I cannot use employee_clean further since I have tried updating terminationdate_key column numerous time in many ways. Thus, i decided to take pivot and
+I cannot use employee_clean further since I have tried updating terminationdate_key column numerous time in many ways. 
+Thus, i decided to take pivot and I preserved raw HR snapshots, performed audit & validation in SQL, built a cleaned analytical layer via transformations, and modeled KPIs in Power BI.
+
+
 
 
 
