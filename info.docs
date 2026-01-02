@@ -25,6 +25,13 @@ No records found where the gender represented as both M/F and Male/Female. So, g
 No spelling error in department names.
 No mixed casing in status values.
 6. Duplicate and uniqueness validation
-
-
+5 records where same employee appearing multiple times for the same year.
+No duplicate rows with identical attributes found.
+7. Derived field accuracy
+No records found where age is not matching birth date and record year.
+No records of length of service not aligning with hire date.
+8. Business rule alignment
+No records where store employees classified as head office.
+No records where termination reasons applied to active employees.
+8237 records found where business unit mismatches with job titles.
 
