@@ -1,7 +1,7 @@
 -Data audit
 
 1. Data completeness
-49563 records found in total.
+49653 records found in total.
 There are no null values.
 One placeholder found where terminationdate_key column should be null is filled with 1/1/1900.
 Several column names need edits. some are in upper case, some in lower. Use upper() for all. probably make the names simpler. Remove column gender_full. change store_name to store_no.
@@ -43,6 +43,13 @@ Standardizing the names of columns. new columns names are employee_id, store_no,
 Dropped column gender_full.
 I cannot use employee_clean further since I have tried updating terminationdate_key column numerous time in many ways. 
 Thus, i decided to take pivot and I preserved raw HR snapshots, performed audit & validation in SQL, built a cleaned analytical layer via transformations, and modeled KPIs in Power BI.
+
+-Transformations
+Created a table called employee_analytics from employee_raw with these columns: 
+EmployeeID, STATUS_YEAR, STATUS, BUSINESS_UNIT, department_name, job_title, city_name, store_name, gender_short AS gender, termination_date, hire_date, birth_date, age, length_of_service,
+  termreason_desc, termtype_desc
+Verified with the total count with the count of employee_raw.
+
 
 
 
