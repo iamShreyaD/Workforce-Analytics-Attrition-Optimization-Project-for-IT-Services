@@ -49,6 +49,9 @@ Created a table called employee_analytics from employee_raw with these columns:
 EmployeeID, STATUS_YEAR, STATUS, BUSINESS_UNIT, department_name, job_title, city_name, store_name, gender_short AS gender, termination_date, hire_date, birth_date, age, length_of_service,
   termreason_desc, termtype_desc
 Verified with the total count with the count of employee_raw.
+Since there were database limitations to further process, I decided to move to power BI. I extracted employee_analytics.csv.
+
+
 
 
 
