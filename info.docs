@@ -51,6 +51,9 @@ EmployeeID, STATUS_YEAR, STATUS, BUSINESS_UNIT, department_name, job_title, city
 Verified with the total count with the count of employee_raw.
 Since there were database limitations to further process, I decided to move to power BI. I extracted employee_analytics.csv.
 
+-Power BI
+Created 3 columns: attrition_flag (status), age_band (age), tenure_band (length_of_service)
+
 
 
 
