@@ -54,6 +54,9 @@ Since there were database limitations to further process, I decided to move to p
 -HR_attrition_analytics
 Created 3 columns: attrition_flag (status), age_band (age), tenure_band (length_of_service)
 Created 6 measures: total_employees, active_employees, terminated_employees, attrition_rate, early_exit_percentage, avg_tenure
+Created a table with years and the 6 measures to verify data.
+
+
 
 
 
