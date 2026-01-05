@@ -57,6 +57,12 @@ Created 6 measures: total_employees, active_employees, terminated_employees, att
 Created a table with years and the 6 measures to verify data.
 https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project-for-IT-Services/blob/main/Images/Screenshot%202026-01-05%20161535.png
 
+To check for duplicated rows, I created 2 measures, one containing total rows of table and another containing summarized rows of table, employee_id and year.
+There was difference of 5 rows.
+In the powerquery editor, I removed duplicate rows by selecting employee_id and year column. This was followed by verifying number of rows again - 49648 records.
+
+
+
 
 
 
