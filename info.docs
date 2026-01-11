@@ -65,7 +65,7 @@ employee_id, year, status, business_unit, department_name, job_title, city_name,
 
 -employee_attrition_prediction.ipynb
 Loaded employee_ml.csv to ipynb
-Verified data shape. Result: 43653 x 16
+Verified data shape. Result: 49653 x 16
 Data types are as follows:
 employee_id           int64
 year                  int64
