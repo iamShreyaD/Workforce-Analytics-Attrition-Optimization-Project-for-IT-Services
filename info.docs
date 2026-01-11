@@ -60,8 +60,30 @@ https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project
 To check for duplicated rows, I created 2 measures, one containing total rows of table and another containing summarized rows of table, employee_id and year.
 There was difference of 5 rows.
 In the powerquery editor, I removed duplicate rows by selecting employee_id and year column. This was followed by verifying number of rows again - 49648 records.
-At the end, to extract employee_ml.csv, I selected all the records in power query editor after retrieving duplicates. Thus, I have 49653 records in employee_ml.csv.
+At the end, to extract employee_ml.csv, I selected all the records in power query editor after retrieving duplicates. Thus, I have 49653 records in employee_ml.csv containing columns such as 
+employee_id, year, status, business_unit, department_name, job_title, city_name, store_no,	gender,	termination_date,	hire_date, birth_date, age, length_of_service, termreason_desc, termtype_desc.
 
+-employee_attrition_prediction.ipynb
+Loaded employee_ml.csv to ipynb
+Verified data shape. Result: 43653 x 16
+Data types are as follows:
+employee_id           int64
+year                  int64
+status               object
+business_unit        object
+department_name      object
+job_title            object
+city_name            object
+store_no              int64
+gender               object
+termination_date     object
+hire_date            object
+birth_date           object
+age                   int64
+length_of_service     int64
+termreason_desc      object
+termtype_desc        object
+Checked for null count: termination_date count came up to 42450.
 
 
 
