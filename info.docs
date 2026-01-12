@@ -102,7 +102,8 @@ Explicitly excluded identifiers and leakage-prone columns.
 Reduced categorical noise by grouping rare job titles (<1% frequency) into an “Other” category.
 Applied one-hot encoding with multicollinearity control. 
 Standardized numeric features (age, tenure, year) to support linear models and validated class imbalance, resulting in a clean feature matrix and target variable suitable for binary attrition prediction.
-
+To begin model training and evaluation of the model, the dataset was split into training (80%) and testing (20%) sets using stratified sampling on the attrition target to preserve class distribution. 
+This ensures unbiased evaluation and reliable performance measurement on imbalanced HR attrition data.
 
 
 
