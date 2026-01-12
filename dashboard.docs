@@ -1,0 +1,221 @@
+1️⃣ Workforce & Attrition Insights (Historical + Current)
+2️⃣ Attrition Risk & Prediction Dashboard (ML-powered)
+
+This mirrors how HR analytics teams actually work.
+
+🟦 DASHBOARD 1: WORKFORCE & ATTRITION INSIGHTS
+
+(Past + Present — Descriptive & Diagnostic)
+
+🎯 Purpose
+
+Show you understand KPI logic
+
+Show trend analysis
+
+Show root cause breakdowns
+
+Build trust in your data before ML
+
+🔹 Section A — Executive KPI Strip (Top Row)
+
+Include cards:
+
+Total Employees
+
+Active Employees
+
+Terminated Employees
+
+Attrition Rate %
+
+Early Exit %
+
+Avg Tenure (Years)
+
+📌 These are directly tied to your DAX measures
+📌 This proves Power BI + business alignment
+
+🔹 Section B — Attrition Trend Analysis
+
+Visuals
+
+Line chart:
+
+Attrition Rate by Year
+
+Line or clustered column:
+
+Active vs Terminated by Year
+
+Insight this communicates
+
+“Attrition is not static — it changes over time.”
+
+🔹 Section C — Diagnostic Breakdown (Why people leave)
+
+Use bar / column charts:
+
+Attrition Rate by Department
+
+Attrition Rate by Job Title
+
+Attrition Rate by Business Unit
+
+Attrition Rate by City / Store
+
+📌 Sort by highest attrition
+📌 Add tooltips with counts
+
+🔹 Section D — Tenure & Demographics
+
+Visuals
+
+Histogram:
+
+Attrition by Length of Service buckets
+
+Bar:
+
+Attrition by Age Group
+
+Optional:
+
+Attrition by Gender (neutral phrasing!)
+
+📌 This connects perfectly to your ML findings later.
+
+🔹 Filters / Slicers (Right Panel)
+
+Year
+
+Department
+
+Business Unit
+
+Job Title
+
+City
+
+📌 Shows interactivity and analytical thinking.
+
+✅ What Dashboard 1 proves
+
+✔ KPI logic
+✔ DAX competency
+✔ Business diagnostics
+✔ Stakeholder-ready reporting
+
+🟪 DASHBOARD 2: ATTRITION RISK & PREDICTIONS (ML-DRIVEN)
+
+This is where you separate yourself from 90% of candidates.
+
+🎯 Purpose
+
+Translate ML into decisions
+
+Show explainability
+
+Show actionability
+
+🔹 Section A — Risk Overview (Executive View)
+
+Cards
+
+Employees Scored
+
+High Risk Employees (%)
+
+Medium Risk Employees (%)
+
+Low Risk Employees (%)
+
+📌 Risk bands (example):
+
+High: > 0.7
+
+Medium: 0.4–0.7
+
+Low: < 0.4
+
+🔹 Section B — Attrition Risk Distribution
+
+Visuals
+
+Histogram / bar:
+
+Predicted attrition probability
+
+Donut:
+
+Risk category split
+
+📌 This visually communicates model output without math.
+
+🔹 Section C — Risk by Business Dimension
+
+Visuals
+
+Avg predicted risk by Department
+
+Avg predicted risk by Job Title
+
+Avg predicted risk by Business Unit
+
+Avg predicted risk by City / Store
+
+📌 This directly aligns with Random Forest importance
+
+🔹 Section D — Explainability Panel (Critical)
+
+Visuals
+
+Bar chart:
+
+Top 10 attrition drivers (from B4)
+
+Text box:
+
+Business interpretations (static narrative)
+
+Example text:
+
+“Shorter tenure, certain departments, and non-standardized roles significantly increase attrition risk. These insights are consistent across linear and non-linear models.”
+
+📌 This is explainable ML in Power BI — very rare.
+
+🔹 Section E — Actionable Employee Table (Optional but 🔥)
+
+Table with:
+
+Employee ID
+
+Department
+
+Job Title
+
+Tenure
+
+Predicted Risk
+
+Risk Category
+
+📌 Filterable
+📌 HR can “intervene” here
+
+⚠️ Note: Keep employee_id only here, nowhere else.
+
+✅ What Dashboard 2 proves
+
+✔ ML → business translation
+✔ Responsible ML
+✔ Explainability
+✔ Decision support thinking
+
+🧠 HOW INTERVIEWERS WILL READ THIS
+
+They’ll think:
+
+“This person doesn’t just build models — they understand how analytics is used in real organizations.”
+
+That’s mid-level DS perception.
