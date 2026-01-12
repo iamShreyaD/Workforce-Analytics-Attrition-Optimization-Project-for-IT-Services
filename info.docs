@@ -104,7 +104,21 @@ Applied one-hot encoding with multicollinearity control.
 Standardized numeric features (age, tenure, year) to support linear models and validated class imbalance, resulting in a clean feature matrix and target variable suitable for binary attrition prediction.
 To begin model training and evaluation of the model, the dataset was split into training (80%) and testing (20%) sets using stratified sampling on the attrition target to preserve class distribution. 
 This ensures unbiased evaluation and reliable performance measurement on imbalanced HR attrition data.
+Logistic Regression:
+Model Objective: Built a Logistic Regression baseline model to predict employee attrition using demographic, role, and tenure-related features. The dataset was split using an 80/20 stratified train–test split to preserve class imbalance, and class weights were applied to address skewed attrition distribution.
 
+Model Performance: The model achieved a ROC-AUC of 0.87, indicating strong discriminatory power. Recall for attrition cases reached ~76%, aligning with HR analytics goals where identifying potential leavers is prioritized, even at the cost of lower precision.
+
+Business Interpretation: High recall ensures most at-risk employees are flagged, making this model suitable for early intervention strategies. Lower precision reflects expected false positives in imbalanced HR datasets and is acceptable at this stage.
+
+⚠️ Error Encountered & Resolution 
+Initially, the model produced perfect scores due to unencoded categorical variables causing implicit data leakage; this was resolved by explicitly applying one-hot encoding before train–test splitting.
+🎯 Expectation and results
+Metric	Expected	You got
+ROC-AUC	0.75–0.90	✅ 0.87
+Recall (Attrition)	High (>0.65)	✅ 0.76
+Precision	Low–Moderate	✅ 0.14
+Confusion Matrix	Many FP, few FN	✅ Yes
 
 
 
