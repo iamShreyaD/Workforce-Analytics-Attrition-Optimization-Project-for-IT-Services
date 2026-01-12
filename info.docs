@@ -84,6 +84,9 @@ length_of_service     int64
 termreason_desc      object
 termtype_desc        object
 Checked for null count: termination_date count came up to 42450.
+Dropped columns: termination_date, termreason_desc, termtype_desc
+Created a column called attrition_flag where status = "TERMINATED", then 1 and status = "ACTIVE", then 0
+
 
 
 
