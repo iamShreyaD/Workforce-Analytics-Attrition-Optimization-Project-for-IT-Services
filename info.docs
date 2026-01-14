@@ -147,13 +147,15 @@ Interpretation: Random Forest prioritizes same features but also captures non-li
 Consistency check: LR and RF highlight same top features → strengthens confidence in model insights. 
 
 -Dashboard in power bi
-New page in report view.
-Set background for canvas.
-Added text box for dashboard heading with middle alignment.
-Added 6 Cards.
-For each card, turned Label off to add title with customization.
-turned off border in visuals.
-saved sideways padding to 3 and vertical padding to 0.
+1. Workforce & Attrition Insights
+KPI Cards derived from power bi measures as follows:
+a. Total Employees - 6284
+b. Active Employees - 6138
+c. Terminated Employees - 1485
+d. attrition rate - 23.55%
+e. early exit % - 11.15%
+f. average tenure - 11.38
+
 
 
 
