@@ -152,9 +152,14 @@ KPI Cards derived from power bi measures as follows:
 a. Total Employees - 6284
 b. Active Employees - 6138
 c. Terminated Employees - 1485
-d. attrition rate - 23.55%
-e. early exit % - 11.15%
+d. attrition rate - 2.99%
+e. early exit % - 0.12%
 f. average tenure - 11.38
+To ensure accurate KPI representation, average-based measures (Avg Attrition Rate and Avg Early Exit %) were created instead of cumulative ratios. 
+These measures correctly reflect year-level attrition behavior when used without a Year slicer and remain consistent when slicers are applied. 
+The averaged measures were used in KPI cards to prevent aggregation bias and misinterpretation of workforce metrics. 
+This approach ensures statistically valid and stakeholder-ready reporting.
+
 
 
 
