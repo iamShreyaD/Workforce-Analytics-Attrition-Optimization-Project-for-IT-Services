@@ -148,6 +148,7 @@ Consistency check: LR and RF highlight same top features → strengthens confide
 
 -Dashboard in power bi
 1. Workforce & Attrition Insights
+This dashboard provides a descriptive and diagnostic view of workforce attrition using historical employee data.
 KPI Cards derived from power bi measures as follows:
 a. Total Employees - 6284
 b. Active Employees - 6138
@@ -156,12 +157,18 @@ d. attrition rate - 2.99%
 e. early exit % - 0.12%
 f. average tenure - 11.38
 To ensure accurate KPI representation, average-based measures (Avg Attrition Rate and Avg Early Exit %) were created instead of cumulative ratios. 
-These measures correctly reflect year-level attrition behavior when used without a Year slicer and remain consistent when slicers are applied. 
 The averaged measures were used in KPI cards to prevent aggregation bias and misinterpretation of workforce metrics. 
 This approach ensures statistically valid and stakeholder-ready reporting.
+This dashboard provides a descriptive and diagnostic view of workforce attrition using historical employee data.
+Five interactive slicers (Year, Department, Business Unit, Job Title, City) allow stakeholders to analyze attrition across time and organizational dimensions.
+The attrition trend line chart establishes year-over-year volatility, demonstrating that attrition is not constant and requires continuous monitoring.
+The workforce stability chart compares active and terminated employees annually, highlighting years where termination volumes drive attrition spikes despite stable headcount.
+Department-level attrition analysis identifies concentrated risk areas, enabling targeted HR interventions.
+Tenure-band analysis reveals significantly higher attrition among short-tenure employees, directly supporting later ML-based risk modeling.
+Business unit attrition highlights structural or role-design drivers of turnover rather than individual factors.
+Together, these visuals validate data quality, KPI logic, and business alignment before introducing predictive modeling.
 
-
-
+2. 
 
 
 
