@@ -138,6 +138,7 @@ This enables transparent, responsible ML by clearly linking model behavior to bu
 
 -Dashboard in power bi
 1. Workforce & Attrition Insights
+Dataset used is employee_analytics.csv
 This dashboard provides a descriptive and diagnostic view of workforce attrition using historical employee data.
 KPI Cards derived from power bi measures as follows:
 a. Total Employees - 6284
@@ -159,7 +160,91 @@ Business unit attrition highlights structural or role-design drivers of turnover
 Together, these visuals validate data quality, KPI logic, and business alignment before introducing predictive modeling.
 
 2. Attrition Risk & Prediction Dashboard
+1. Dashboard Objective
+This dashboard translates machine-learning attrition predictions into business-ready insights. It enables HR and leadership teams to:
+Identify who is at risk
+Understand why the model flags attrition
+Pinpoint where risk is concentrated
+Support responsible, explainable decision-making
+The dashboard is built using Random Forest model outputs, operationalized in Power BI with a strong focus on model transparency and actionability.
+2. Data Source & Scope
+Primary Dataset-employee_attrition_scored.csv
+One row per employee per year
+Includes model predictions, risk bands, and employee attributes
+Explainability Dataset-attrition_feature_importance.csv
+Top Random Forest features with normalized importance scores
+Used exclusively for explainability visuals
+Filters Applied Across Dashboard-Business Unit,Department,Risk Band,Year,City
+All visuals respond dynamically to slicer selections to enable multi-dimensional analysis.
+3. KPI Summary (Top Row)
+a. Total Employees - 6284
+Total number of employees scored by the model under current filter context.
 
+b. High Risk Employee % - 17.84%
+Percentage of employees with predicted attrition probability > 0.7.
+
+c. Medium Risk Employee % - 4.26%
+Percentage of employees with predicted attrition probability between 0.4 and 0.7.
+
+d. Low Risk Employee % - 77.90%
+Percentage of employees with predicted attrition probability < 0.4.
+Business Value-Provides an executive snapshot of workforce risk exposure and immediately highlights the scale of potential attrition risk.
+4. Risk Distribution & Concentration
+Attrition Risk Distribution (Donut Chart)
+Displays the proportion of employees across Low, Medium, and High risk bands.
+Complements KPI percentages with a visual distribution.
+Risk Concentration by Driver Category (Pie Chart)
+Aggregates feature importance into high-level driver groups:
+Employee Factors (age, tenure)
+Role Factors (department, job title)
+Location Factors (city, store)
+Time / Tenure Factors
+Business Value
+Communicates where attrition risk originates, without exposing model complexity or mathematical detail.
+5. Predictive Risk by Business Dimensions
+Average Predicted Risk by Job Title (Bar Chart)
+Shows average model-predicted attrition probability per job title.
+Highlights roles with systematically higher predicted risk.
+Tooltip (Enhanced Explainability)
+On hover, the tooltip displays:
+Average predicted risk
+Employee count for the selected job title
+Risk band breakdown
+Purpose:
+Prevents over-interpretation of averages by providing context and sample size, supporting responsible analysis.
+Average Predicted Risk by Department (Horizontal Bar Chart)
+Ranks departments by average predicted attrition risk.
+Sorted descending for immediate visibility of high-risk areas.
+Tooltip (Enhanced Explainability)
+On hover, the tooltip displays:
+Average predicted risk
+Number of employees in the department
+Distribution of risk bands
+Purpose:
+Helps stakeholders distinguish between:
+Structural risk (large departments with moderate risk)
+Concentrated risk (small departments with very high predicted risk)
+6. Model Explainability (Core Section)
+Importance by Features (Bar Chart)
+Displays the top Random Forest features contributing to attrition predictions.
+Feature names are business-friendly (e.g., Employee Age, Tenure (Length of Service)).
+Why This Matters:
+Demonstrates transparent ML usage
+Enables stakeholders to understand drivers, not just predictions
+Aligns with Responsible AI principles
+This section bridges the gap between data science models and real-world HR decision-making.
+7. Interactivity & Design Considerations
+All visuals are cross-filtered for consistency
+Employee identifiers are never exposed outside controlled views
+Tooltips are used selectively to:
+Reduce visual clutter
+Add interpretive depth without overwhelming users
+Color usage, layout, and hierarchy are optimized for executive readability and analyst exploration.
+8. Key Takeaways
+This dashboard proves:
+Machine-learning outputs can be interpretable and actionable
+Explainability can be operationalized directly in Power BI
+Predictive analytics can support ethical, data-driven workforce planning
 
 
 
