@@ -1,0 +1,11 @@
+feature,importance
+age,0.3592
+length_of_service,0.1601
+year,0.1129
+store_no,0.0844
+gender_M,0.0204
+gender_F,0.0203
+city_name_Fort Nelson,0.0128
+department_name_Customer Service,0.0125
+city_name_New Westminister,0.0119
+city_name_Vancouver,0.011
