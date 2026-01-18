@@ -111,40 +111,30 @@ Insights suggest short-tenure employees, certain roles, and specific locations a
 These results provide actionable HR intelligence for retention strategies.
 Verification of results-
 Logistic Regression
-
 Top attrition drivers:
-
 age (positive) → higher risk for older employees? Could be early-retirement / contract employees.
-
 Certain cities like Valemount, White Rock → location-specific attrition.
-
 Job title = Other → rare/less senior roles are at higher risk.
-
 Year → newer records could indicate recent joiners are at higher risk.
-
 Protective features:
-
 length_of_service (negative) → tenure is stabilizing factor.
-
 Certain departments (Investment, Executive) → low attrition risk.
-
 Certain cities → location-specific stability.
-
 This aligns logically with HR domain knowledge: short tenure → higher risk, senior roles → lower risk, geography matters. ✅
-
 Random Forest
-
 Top features:
-
 age, length_of_service, year, store_no → consistent with LR.
-
 Gender shows some signal (M/F) but much smaller.
-
 Certain cities and departments contribute as expected.
-
 Interpretation: Random Forest prioritizes same features but also captures non-linear interactions (e.g., store + city combinations). ✅
-
 Consistency check: LR and RF highlight same top features → strengthens confidence in model insights. 
+Model explainability:
+Extracted and validated Random Forest feature importances to ensure interpretability and leakage-free explainability.
+Performed sanity checks to confirm importance normalization and reviewed top drivers for business plausibility.
+Rounded and exported the top 10 features into a separate explainability dataset for stakeholder-facing Power BI visuals.
+This enables transparent, responsible ML by clearly linking model behavior to business factors influencing attrition.
+
+
 
 -Dashboard in power bi
 1. Workforce & Attrition Insights
@@ -168,7 +158,8 @@ Tenure-band analysis reveals significantly higher attrition among short-tenure e
 Business unit attrition highlights structural or role-design drivers of turnover rather than individual factors.
 Together, these visuals validate data quality, KPI logic, and business alignment before introducing predictive modeling.
 
-2. 
+2. Attrition Risk & Prediction Dashboard
+
 
 
 
