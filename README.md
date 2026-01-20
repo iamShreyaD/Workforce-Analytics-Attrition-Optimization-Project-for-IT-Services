@@ -87,8 +87,7 @@ This dataset reflects **real-world class imbalance**, making it suitable for app
 Provide a **descriptive and diagnostic foundation** for understanding workforce composition and historical attrition patterns prior to predictive modeling.
 
 **Key Visuals**
-- Workforce headcount by year
-- Active vs terminated employees trend
+- Workforce stability 
 - Attrition rate over time
 - Attrition by department
 - Attrition by business unit
