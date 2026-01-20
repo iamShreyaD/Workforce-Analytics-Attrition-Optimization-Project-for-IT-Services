@@ -28,7 +28,7 @@ The solution integrates **data auditing, predictive modeling, and executive-read
 ---
 
 ## 📂 Project Structure
-
+\\\
 📁 Workforce-Analytics-Attrition-Optimization
 │
 ├── 📁 Data
@@ -63,7 +63,7 @@ The solution integrates **data auditing, predictive modeling, and executive-read
 ├── 📄 Report.pdf
 └── README.md
 
-
+\\\
 
 ---
 
