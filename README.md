@@ -28,42 +28,26 @@ The solution integrates **data auditing, predictive modeling, and executive-read
 ---
 
 ## 📂 Project Structure
-\\\
+
 📁 Workforce-Analytics-Attrition-Optimization
 │
 ├── 📁 Data
 │   ├── 📁 Processed
-│   │   ├── attrition_feature_importance.csv
-│   │   ├── employee_analytics.csv
-│   │   ├── employee_attrition_scored.csv
-│   │   └── employee_ml.csv
 │   └── 📁 Raw
-│       └── employee_raw.csv
 │
 ├── 📁 Images
-│   ├── Dashboard 1.png
-│   ├── Screenshot 1.png
-│   ├── Screenshot 2.png
-│   ├── Screenshot 3.png
-│   ├── Screenshot 4.png
-│   ├── Screenshot 5.png
-│   ├── Screenshot 6.png
-│   └── Screenshot 7.png
 │
 ├── 📁 notebook
-│   └── employee_attrition_prediction.ipynb
 │
 ├── 📁 powerbi
-│   └── HR_attrition_analytics.pbix
 │
 ├── 📁 sql
-│   ├── 01_data_audit.sql
-│   └── 02_transformations.sql
 │
 ├── 📄 Report.pdf
+|
 └── README.md
 
-\\\
+
 
 ---
 
