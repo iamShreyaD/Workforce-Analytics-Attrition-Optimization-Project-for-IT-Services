@@ -105,11 +105,14 @@ Translate machine-learning predictions into **actionable, explainable workforce 
 - High-risk employee analysis (aggregated, non-identifying)
 
 **Tooltip Design (Explainability Layer)**
+
 - Attrition Risk Distribution
+  
 ![Tooltip-Attrition Risk Distribution](https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project-for-IT-Services/blob/main/Images/Tooltip-attrition%20risk%20distribution.png)
 
 
 - Average Predicted Risk by Department
+
 ![Tooltip-Average Predicted Risk by Department](https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project-for-IT-Services/blob/main/Images/Tooltip-attrition%20risk%20by%20department.png)
 
 **Purpose:**  
