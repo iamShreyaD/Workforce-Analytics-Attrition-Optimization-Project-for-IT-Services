@@ -91,7 +91,7 @@ Validates KPI logic, data integrity, and workforce trends, ensuring a strong ana
 ---
 
 ### Dashboard 2 — *Attrition Risk & Prediction*
-![Dashboard 2](Images/Screenshot%201.png](https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project-for-IT-Services/blob/main/Images/Dashboard%202.png)
+![Dashboard 1](Images/Dashboard%202.png)
 
 **Objective:**  
 Translate machine-learning predictions into **actionable, explainable workforce risk insights** for HR and leadership teams.
@@ -106,11 +106,11 @@ Translate machine-learning predictions into **actionable, explainable workforce 
 
 **Tooltip Design (Explainability Layer)**
 - Attrition Risk Distribution
-![ ](https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project-for-IT-Services/blob/main/Images/Tooltip-attrition%20risk%20distribution.png)
+![Tooltip-Attrition Risk Distribution](https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project-for-IT-Services/blob/main/Images/Tooltip-attrition%20risk%20distribution.png)
 
 
 - Average Predicted Risk by Department
-![ ](https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project-for-IT-Services/blob/main/Images/Tooltip-attrition%20risk%20by%20department.png)
+![Tooltip-Average Predicted Risk by Department](https://github.com/iamShreyaD/Workforce-Analytics-Attrition-Optimization-Project-for-IT-Services/blob/main/Images/Tooltip-attrition%20risk%20by%20department.png)
 
 **Purpose:**  
 Prevents misinterpretation of averages and supports responsible, data-driven decision-making.
