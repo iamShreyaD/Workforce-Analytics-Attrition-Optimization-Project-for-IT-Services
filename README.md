@@ -153,6 +153,6 @@ Selected for superior predictive accuracy while retaining transparency through f
 
 ## 👤 Author
 **Shreya Deshpande**  
-Data Scientist (Early Career)  
+Data Scientist 
 Python • SQL • Machine Learning • Power BI
 
